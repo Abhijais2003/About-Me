@@ -1,0 +1,145 @@
+/* HTML Tags */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 3%;
+  margin: 70px auto;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.645rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', cursive;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/* class and ids */
+
+.my-img {
+  margin-top: 50px;
+  width: 15%;
+}
+
+.start-p{
+  line-height: 2;
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.software {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.upper-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.mern-img {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.DSA-img{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.lifting-img {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.designer__info {
+  margin: 0px 300px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.designer__h3{
+    padding: 20px 0px;
+}
+
+.btn {
+  line-height: 3;
+  text-decoration: none;
+  background-color: #11999e;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: Arial;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: lightseagreen;
+  text-decoration: none;
+}
+
+.bottom-container{
+      margin-top: 90px;
+      background-color: #66BFBF;
+      padding: 40px 0 20px;
+      /* line-height: 2; */
+}
+.footer{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
